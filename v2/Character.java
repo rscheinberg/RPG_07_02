@@ -1,10 +1,10 @@
 public class Character {
 	
 	//fields
-	private int health;
-	private int strength;
-	private int defense;
-	private double attackRating;
+	protected int health;
+	protected int strength;
+	protected int defense;
+	protected double attackRating;
 	
 	/*
 	*  Instance Method

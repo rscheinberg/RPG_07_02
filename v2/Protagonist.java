@@ -48,5 +48,13 @@ public class Protagonist extends Character {
 		defense += 5;
 		attackRating *= .5;
 	}
-	
+
+	public String toString() {
+		String name_ = "Name: " + name + System.lineseparator();
+		String health_ = "Health: " + heatlh + System.lineseparator();
+		String strength_ = "Strength: " + strength + System.lineseparator();
+		String defense_ = "Defense: " + defense + System.lineseparator();
+		String attackRating_ = "Attack Rating: " + attackRating + System.lineseparator();
+		return name_ + health_ + strength + defense_ + attackRating_;
+	}
 }		
