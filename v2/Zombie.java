@@ -4,7 +4,7 @@
 *  - Sublcass of Monster
 */
 public class Zombie extends Monster{
-	
+
 	public Medic () {
 		super();
 		health = 45;
@@ -14,6 +14,7 @@ public class Zombie extends Monster{
 	}
 
 	public String toString () {
-		return super.toString();
+		return "This character is a Zombie." + System.lineseparator() +
+						super.toString();
 	}
 }

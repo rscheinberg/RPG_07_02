@@ -4,7 +4,7 @@
 *  - Sublcass of Protagonist
 */
 public class DeathRobot extends Protagonist{
-	
+
 	public DeathRobot (String name) {
 		super(name);
 		health = 200;
@@ -14,6 +14,6 @@ public class DeathRobot extends Protagonist{
 	}
 
 	public String toString () {
-		return super.toString();
-	}
+		return "This character is a Zombie." + System.lineseparator() +
+						super.toString();	}
 }

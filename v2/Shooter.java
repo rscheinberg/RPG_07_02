@@ -4,7 +4,7 @@
 *  - Sublcass of Protagonist
 */
 public class Shooter extends Protagonist{
-	
+
 	public Medic (String name) {
 		super(name);
 		health = 50;
@@ -14,6 +14,6 @@ public class Shooter extends Protagonist{
 	}
 
 	public String toString () {
-		return super.toString();
-	}
+		return "This character is a Shooter." + System.lineseparator() +
+						super.toString();	}
 }

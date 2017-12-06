@@ -4,7 +4,7 @@
 *  - Sublcass of Monster
 */
 public class Medic extends Protagonist{
-	
+
 	public Medic () {
 		super();
 		health = 15;
@@ -14,6 +14,6 @@ public class Medic extends Protagonist{
 	}
 
 	public String toString () {
-		return super.toString();
-	}
+		return "This character is a Blob." + System.lineseparator() +
+						super.toString();	}
 }

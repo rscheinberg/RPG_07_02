@@ -4,7 +4,7 @@
 *  - Sublcass of Monster
 */
 public class Vampire extends Protagonist{
-	
+
 	public Medic () {
 		super();
 		health = 30;
@@ -14,6 +14,7 @@ public class Vampire extends Protagonist{
 	}
 
 	public String toString () {
-		return super.toString();
+		return "This character is a Vampire." + System.lineseparator() +
+						super.toString();
 	}
 }
