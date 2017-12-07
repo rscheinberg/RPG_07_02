@@ -4,7 +4,7 @@
  **********************************************/
 
 // shorthand, used to read from CLI
-import java.io.*;   
+import java.io.*;
 import java.util.*;
 
 public class GameUser
@@ -44,8 +44,8 @@ public class GameUser
 
   /*=============================================
     void newGame() -- gathers info to begin a new game
-    precondition:  
-    post: according to user input, modifies instance var for difficulty 
+    precondition:
+    post: according to user input, modifies instance var for difficulty
     and instantiates a Protagonist
     =============================================*/
   public void newGame()
@@ -71,7 +71,7 @@ public class GameUser
     try {
 	    name = in.readLine();
     } catch ( IOException e ) { }
-    
+
     s = "You must have a type. What type is that?\n";
     s += "\t1: Shooter \n";
     s += "\t2: Medic \n";
@@ -81,14 +81,14 @@ public class GameUser
     try {
 	    type = in.readLine();
     } catch ( IOException e ) {}
-    if (type.equals("1")) 
+    if (type.equals("1"))
     	pat = new Shooter( name );
     else if(type.equals("2"))
     	pat = new Medic(name );
     else if (type.equals("3"))
     	pat = new DeathRobot(name);
     else System.out.println("yikes");
-    
+
   }//end newGame()
 
 
@@ -139,7 +139,7 @@ public class GameUser
 
 	    //option 1: you & the monster perish
 	    if ( !smaug.isAlive() && !pat.isAlive() ) {
-        System.out.println( "'Twas an epic battle, to be sure... " + 
+        System.out.println( "'Twas an epic battle, to be sure... " +
                             "You cut ye olde monster down, but " +
                             "with its dying breath ye olde monster. " +
                             "laid a fatal blow upon thy skull." );

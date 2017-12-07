@@ -3,10 +3,9 @@
 *  - Used for monster game
 *  - Sublcass of Monster
 */
-public class Medic extends Protagonist{
+public class Blob extends Monster{
 
-	public Medic () {
-		super();
+	public Blob () {
 		health = 15;
 		strength = 5;
 		defense = 20;
@@ -14,6 +13,6 @@ public class Medic extends Protagonist{
 	}
 
 	public String toString () {
-		return "This character is a Blob." + System.lineseparator() +
+		return "This character is a Blob." + System.lineSeparator() +
 						super.toString();	}
 }

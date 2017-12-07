@@ -5,7 +5,7 @@
 */
 public class Shooter extends Protagonist{
 
-	public Medic (String name) {
+	public Shooter (String name) {
 		super(name);
 		health = 50;
 		strength = 5;
@@ -14,6 +14,6 @@ public class Shooter extends Protagonist{
 	}
 
 	public String toString () {
-		return "This character is a Shooter." + System.lineseparator() +
+		return "This character is a Shooter." + System.lineSeparator() +
 						super.toString();	}
 }

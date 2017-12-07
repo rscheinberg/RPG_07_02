@@ -3,10 +3,9 @@
 *  - Used for monster game
 *  - Sublcass of Monster
 */
-public class Vampire extends Protagonist{
+public class Vampire extends Monster{
 
-	public Medic () {
-		super();
+	public Vampire () {
 		health = 30;
 		strength = 15;
 		defense = 20;
@@ -14,7 +13,7 @@ public class Vampire extends Protagonist{
 	}
 
 	public String toString () {
-		return "This character is a Vampire." + System.lineseparator() +
+		return "This character is a Vampire." + System.lineSeparator() +
 						super.toString();
 	}
 }

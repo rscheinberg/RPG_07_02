@@ -14,6 +14,6 @@ public class DeathRobot extends Protagonist{
 	}
 
 	public String toString () {
-		return "This character is a Zombie." + System.lineseparator() +
+		return "This character is a DeathRobot." + System.lineSeparator() +
 						super.toString();	}
 }

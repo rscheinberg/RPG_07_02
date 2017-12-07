@@ -14,6 +14,6 @@ public class Medic extends Protagonist{
 	}
 
 	public String toString () {
-		return "This character is a Medic." + System.lineseparator() +
+		return "This character is a Medic." + System.lineSeparator() +
 						super.toString();	}
 }
