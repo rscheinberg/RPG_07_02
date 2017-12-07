@@ -12,7 +12,7 @@ public class Monster extends Character {
 		String strength_ = "Strength: " + strength + System.lineSeparator();
 		String defense_ = "Defense: " + defense + System.lineSeparator();
 		String attackRating_ = "Attack Rating: " + attackRating + System.lineSeparator();
-		return health_ + strength + defense_ + attackRating_;
+		return health_ + strength_ + defense_ + attackRating_;
 	}
 
 
